@@ -4,7 +4,7 @@ using ScriptableObjectArchitecture;
 
 $NAMESPACE_START$
 [System.Serializable]
-public class $TYPE_NAME$Event : UnityEvent<$TYPE_NAME$> { }
+public class $TYPE_NAME$Event : UnityEvent<$TYPE$> { }
 
 [CreateAssetMenu(
     fileName = "$TYPE_NAME$Variable.asset",
