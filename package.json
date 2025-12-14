@@ -1,22 +1,21 @@
 {
-  "name": "com.gnomecap.scriptableobject-architecture",
-  "displayName": "GnomeCap's ScriptableObject-Architecture",
-  "version": "0.0.3",
-  "unity": "2019.2",
-  "description": "Makes using Scriptable Objects as a fundamental part of your architecture in Unity super easy. Forked from Daniel Everland's codebase",
-  "category": "Tools",
-  "author": {
-    "name": "GnomeCap Games",
-    "email": "admin@gnomecap.games",
-    "url": "https://gnomecap.games/"
-  },
-  "keywords": [
-    "scriptable",
-    "event",
-    "ScriptableObject",
-    "architecture",
-    "tool",
-    "UnityEvent",
-    "generic"
-  ]
+    "name": "com.askhento.scriptableobject-architecture",
+    "displayName": "Askhento's ScriptableObject-Architecture",
+    "version": "0.0.3",
+    "unity": "2019.2",
+    "description": "Makes using Scriptable Objects as a fundamental part of your architecture in Unity super easy. Forked from Daniel Everland's codebase",
+    "category": "Tools",
+    "author": {
+        "name": "Askhento",
+        "email": "mudarisowash@gmail.com"
+    },
+    "keywords": [
+        "scriptable",
+        "event",
+        "ScriptableObject",
+        "architecture",
+        "tool",
+        "UnityEvent",
+        "generic"
+    ]
 }

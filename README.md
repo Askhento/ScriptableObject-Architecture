@@ -7,9 +7,6 @@ Based on [Ryan Hipple's 2017 Unite talk](https://www.youtube.com/watch?v=raQ3iHh
 
 Reading Daniel's [Quick Start Page](https://github.com/DanielEverland/ScriptableObject-Architecture/wiki/Quick-Start) is recommended!
 
-> [!NOTE] 
-> This is GnomeCap's fork of Daniel Everland's ScriptableObject-Architecture package. Suited to our needs. Use with a grain of salt 😎
-
 ## Our Changes:
 - Added simple editor to see what GameObject Components are referencing scriptable events, collections, and variables
 - Added a Unity Action to allow a script with a reference to a GameEventListener to subscribe to EventRaised without having to use the Inspector GUI.
