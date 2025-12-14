@@ -2,10 +2,9 @@
 using UnityEngine.Events;
 using ScriptableObjectArchitecture;
 
-namespace $NAMESPACE$
+$NAMESPACE_START$
+[System.Serializable]
+public sealed class $TYPE_NAME$UnityEvent : UnityEvent<$TYPE$>
 {
-	[System.Serializable]
-	public sealed class $TYPE_NAME$UnityEvent : UnityEvent<$TYPE$>
-	{
-	}
 }
+$NAMESPACE_END$

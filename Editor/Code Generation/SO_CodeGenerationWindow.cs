@@ -79,7 +79,7 @@ namespace ScriptableObjectArchitecture.Editor
 
             DataFields();
 
-            if (string.IsNullOrEmpty(_typeName) || string.IsNullOrEmpty(_namespace))
+            if (string.IsNullOrEmpty(_typeName))
                 GUI.enabled = false;
 
             if (GUILayout.Button("Generate"))
@@ -130,8 +130,8 @@ namespace ScriptableObjectArchitecture.Editor
             // Namespace
             _namespace = EditorGUILayout.TextField(new GUIContent("Namespace", "Case sensitive, ensure exact match with actual namespace"), _namespace);
 
-            if (string.IsNullOrEmpty(_namespace))
-                EditorGUILayout.HelpBox("Please fill out the Namespace", MessageType.Error);
+            // if (string.IsNullOrEmpty(_namespace))
+            //     EditorGUILayout.HelpBox("Please fill out the Namespace", MessageType.Error);
 
             // Menu name.
             _menuAnim.target = RequiresMenu();

@@ -102,13 +102,14 @@ namespace ScriptableObjectArchitecture.Editor
 
         public static void Generate(Data data)
         {
-            _replacementStrings = new string[5, 2]
+            _replacementStrings = new string[,]
             {
             { "$TYPE$", data.TypeName },
             { "$TYPE_NAME$", CapitalizeFirstLetter(data.TypeName) },
             { "$MENU_NAME$", data.MenuName },
             { "$ORDER$", data.Order.ToString() },
-            { "$NAMESPACE$", data.Namespace}
+            { "$NAMESPACE_START$", string.IsNullOrEmpty(data.Namespace) ? "" : $"namespace {data.Namespace}\n{{"},
+            { "$NAMESPACE_END$", string.IsNullOrEmpty(data.Namespace) ? "": "}"}
             };
 
             for (int i = 0; i < TYPE_COUNT; i++)

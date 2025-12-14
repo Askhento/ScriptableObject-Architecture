@@ -1,13 +1,13 @@
 ﻿using UnityEngine;
 using ScriptableObjectArchitecture;
 
-namespace $NAMESPACE$
+$NAMESPACE_START$
+[CreateAssetMenu(
+    fileName = "$TYPE_NAME$Collection.asset",
+    menuName = SOArchitecture_Utility.COLLECTION_SUBMENU + "$MENU_NAME$",
+    order = $ORDER$)
+]
+public class $TYPE_NAME$Collection : Collection <$TYPE$>
 {
-	[CreateAssetMenu(
-	    fileName = "$TYPE_NAME$Collection.asset",
-	    menuName = SOArchitecture_Utility.COLLECTION_SUBMENU + "$MENU_NAME$",
-	    order = $ORDER$)]
-	public class $TYPE_NAME$Collection : Collection<$TYPE$>
-	{
-	}
 }
+$NAMESPACE_END$
